@@ -1,0 +1,47 @@
+
+Curso Spring Boot & MVC com Thymeleaf (Udemy - 27/07/2018)
+
+Seção 1:
+	
+	Aula 1 - Introdução : Visão geral do Projeto que vai ser desenvolvido.
+
+		- Ferramentas que vão ser utilizadas:
+
+			* Spring Tool Suite (IDE - STS).
+
+			* Banco de dados MySql: Servidor Community Server 5.5.6 e Ferramenta Workbench.
+
+		- Material de apoio.
+
+		- Colocar o projeto no github: 
+		
+			* Vídeo aula sobre o git e github. 
+			
+			* O git é um sistema de versionamento distribuido.
+
+			* O git tem o kernel desenvolvido em linux e segue arquitetura per to per (ponto a ponto).
+
+			* Configuração do git: https://www.youtube.com/watch?v=yNwh0S0S0bU
+
+				- $>git --version (verificar instalação).
+				- $>git config --global user.name (nome do usuário)
+				- $>git config --global user.email (email do usuário)
+ 				- $>git config --lis (exibe a configuração do usuário)
+				- $(pasta do projeto)>git init (inicia o git na pasta indicada)
+				- $(pasta do projeto)>git status (exibe informações sobre a pasta do projeto)
+				- $(pasta do projeto)>git add . (incluir todos os arquivos modificados para área stage pronto para realizar 
+				commiti)
+				- $(pasta do projeto)>git commit -m "mensagem do commit" (commit dos arquivos da área de stage)
+				- $(pasta do projeto)>git log (exibe o histórico do git na pasta indicada)
+				- O vídeo mostra (16:50) como configurar o git para ignorar arquivos que não precisam ser
+				versionados(ignorados pelo git).
+				- Para remover o arquivo do git e localmente $(pasta do projeto)>git rm (nome do arquivo). Depois deve ser feito
+				$(pasta do projeto)>git commit -m "mensagem", para registrar remoção do arquivo no git.
+				- $(pasta do projeto)>git clone https://(endereço do projeto no github) permite fazer uma copia do projeto
+				localmente(clone).
+
+
+
+
+
+	Aula 2 -
