@@ -38,10 +38,39 @@ Seção 1:
 				- Para remover o arquivo do git e localmente $(pasta do projeto)>git rm (nome do arquivo). Depois deve ser feito
 				$(pasta do projeto)>git commit -m "mensagem", para registrar remoção do arquivo no git.
 				- $(pasta do projeto)>git clone https://(endereço do projeto no github) permite fazer uma copia do projeto
-				localmente(clone).
+				localmente(clone), quando quero transferir do github para minha pasta local.
+				- $(pasta do projeto)>git remote add origin https://github.com/lincolnjohn/springbootthymeleaf.git, depois do
+				projeto criado no github para vincular com o projeto local
+				- $(pasta do projeto)>git push -u origin master (para enviar inicialmente o meu projeto ao github, depois somente
+				utilizar git push)
+				- $(pasta do projeto)>git pull (sincroniza os arquivos do remoto com o projeto local)
+
+
+	Aula 2 - Injeção de Dependência:
+
+		* Padrão de Projetos incorporado ao Spring Framework.
+
+		* Diminuir o acoplamento e alta coesão um dos principios da orientação objetos, baixo acoplamento dependência de outras 
+		classes e alta coesão ligada a responsbilidade única.
+
+		* Basear a dependência em classes abstratas.
+
+		* Inversão de controle, retira do programador a responsabilidade de criar objetos e passa a um container.
+
+	Aula 3 - Anotações do Spring:
+
+		* @Component identifica um Bean, classe gerenciado pelo Spring Framework.
+
+		* @Repository identifica um Bean, clasee gerenciado pelo Spring Framework to tipo persistente em Banco de dados.
+
+		* @Service identifica um Bean, classe gerenciado pelo Spring Framework que prover um serviço as regras de negócio.
+
+		* @Autowired identifica para o Spring que ele deve injetar a variável anotada na classe em que está declarada.
+		Pode ser utilizada em métodos ou no Construtor.
 
 
 
 
 
-	Aula 2 -
+
+
