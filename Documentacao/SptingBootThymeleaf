@@ -69,6 +69,81 @@ Seção 1:
 		Pode ser utilizada em métodos ou no Construtor.
 
 
+	Aula 4 - O Padrão MVC Model, View e Controller
+
+		- Model : 
+			* O model define o modelo ou dominio da aplicação.
+			* As regras de negócios da aplicação.
+			* Persistência de dados.
+		- View:
+			* Interação da aplicaçao com usuario.
+			* Representa a entrada e saída de dados.
+		- Controller:
+			* Componente intermediario.
+			* Recebe as requisições do usuário.
+			* Interage com o Model para buscar resposta ao usuário.
+
+	Aula 5 - Spring MVC:
+
+		* Funciona com um Front Controller (dispatcher servlet).
+		* Recebe as requisições dos navegadores envia para uma classe
+		controller.
+		* A classe controller através de seus métodos se comunica com
+		a camada Model onde estao as classes de negocio ou
+		êpersistência.
+		* A classe model responde a requisição e devolve ao front
+		controller indicando qual a view(template) que deve ser
+		devolvida com as respostas para o usuário.
+
+	Aula 6 - Anotações do Spring MVC:
+
+		* @Controller transforma uma classe emum Bean do tipo Controller.
+		* @RequestMapping usada para mapear URLs de acesso (path)a um controller
+		e os métodos conttidos nele, podem também definir verbos HTTP(POST,GET...).
+		* @PathVarialble tem objetivo extrair da URL um parâmetro que foi incluido
+		como path na URL.
+		* @RequestParam tem objetivo de capturar um parâmetro de consulta(Query Param)
+		enviado por uma solicitação, um objeto da requisição.
+		* @Valid injetar validação back-end via Hibernate Validator, Bean Validation ou
+		Spring Validator
+
+	Aula 7 - Objetos de resposta do Spring MVC:
+
+		* ModelMap: Objeto usado para enviar dados a uma página como resposta de uma
+		solicitação (forward).
+		* ModelAndView: Objeto usado para enviar dados a uma página como resposta de uma
+		solicitação pode adicionar uma página como resposta.
+		* Respostas forward vão abrir uma página.
+		* Redirect é uma operação usada para redirecionar a resposta de uma solicitação
+		para outra solicitação. Quando utilizar o Redirect se você quiser pasar informações
+		é necessário utilizar o RedirectAttributes e atribuir as informações que você 
+		precisa.
+
+	Aula 8 - Spring Boot:
+		* Um projeto que facilita o processo de configuração e publicação de nossas 
+		aplicações.
+
+	Questionário.
+
+Seção 2 - Iniciando o Desenvolvimento do Projeto:
+
+	Aula 9 - Criando projeto via wizard do STS (IDE do Spring):
+		
+		* Opção File > New >Spring Starter Project.
+		* Selecionar as opções Web, Thymeleaf e DevTools.
+		* Na criação do projeto deu erro no update de um biblioteca pelo Maven,
+		foi necessário apagar a pasta do repositorio local do Maven.
+
+	Aula 10 - Importando os arquivos Html:
+	
+		* Baixar os arquivos de templates de páginas Html.
+		* Quando trabalhamos com Thymeleaf o diretório padrão para as páginas html
+		é resources/templates
+		
+
+
+
+
 
 
 
