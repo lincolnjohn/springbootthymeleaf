@@ -139,7 +139,45 @@ Seção 2 - Iniciando o Desenvolvimento do Projeto:
 		* Baixar os arquivos de templates de páginas Html.
 		* Quando trabalhamos com Thymeleaf o diretório padrão para as páginas html
 		é resources/templates
+
+[----------------------------------------------------------------------------(31/07/2018)]
+
+	Aula 11 - Incluindo recursos de Webjar:
+
+		* Bibliotecas Jar com suas próprias bibliotecas.
+		* Adiciona as bibliotecas do BootStrap, Jquery, Css e etc. nas sua aplicação através de um jar.
+		* No site https://www.webjars.org/ você identifica as dependências.
+		* Usar a biblioteca de icones https://useiconic.com/
+		* Na vídeo aula a dependência do maven para org.webjars está sem versão, como estou usando a versão 2.0.3
+		do Springboot, estava dando erro solicitando a versão tive que colocar a dependência com versão:
+
+				<dependency>
+					<groupId>org.webjars</groupId>
+					<artifactId>webjars-locator</artifactId>
+					<version>0.33</version>
+				</dependency>
+		* No site do WebJar em cada biblioteca vem a referência de como adicionar as bibliotecas webjar em sua aplicação,
+		no github dentro do arquivo javaScript, mostra o caminho que deve ser colocado.
+
+	Aula 12 - Testando os links do menu:
+	
+		* Criar as classes de controller que vão responder aos links do menu da aplicação.
+
+	Aula 13 - Resumo da seção.
+	
+	Aula 14 - Adicionando o Starter para JPA:
+
+		* Classes de entidades ou dominio.
+		* Mapeamento objeto relacional, relacionando a classe com uma tabela no banco de dados.
+		* Site de referência para a versão do Spring Boot adotada:
+		 https://docs.spring.io/spring-boot/docs/2.0.3.BUILD-SNAPSHOT/reference/html/
 		
+
+
+
+
+
+
 
 
 
