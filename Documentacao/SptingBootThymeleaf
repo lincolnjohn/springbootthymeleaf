@@ -207,7 +207,24 @@ Seção 2 - Iniciando o Desenvolvimento do Projeto:
 		que acontece quando você tem entidades com relacionamentos 1 para N ou N para N, e a transação é
 		fechada antes de finalizar todas as consultas do relacionamento.
 		* Incluir o driver do MySql nas dependências do projeto, arquivo pom.xml .
-		 
+
+	Aula 21 - Criando um DAO Genérico:
+	
+		* A camada de persistência vamos trabalha com o padrão de projeto DAO.
+		* Criar um DAO generico, que fornecem vários métodos comuns a várias classes.	 
+		* Criar um método protegido que somente pode ser acessado por herança ou pelas
+		classes que herdam o DAO genérico.
+		* O atributo entityClass retorna a entidade que está sendo utilizada na operação.
+		* O Spring vai fica responsável em gerenciar as transações de banco.
+
+	Aula 22 - Incluindo os DAOs específicos:
+	
+		* Não vamos criar um dao para entidade Endereço, porque a manipulação dos dados vai ser feita pelo
+		dao de funcionário.
+		* Quando for injetar uma classe de DAO utilizar as interfaces, como boa prática.
+
+	Aula 23 - Resumo da seção.	
+
 
 
 
