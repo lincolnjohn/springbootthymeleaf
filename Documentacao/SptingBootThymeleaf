@@ -190,9 +190,24 @@ Seção 2 - Iniciando o Desenvolvimento do Projeto:
 
 		* Criando o Enum para descrição e sigla do atributo estado.
 
-			
+	Aula 18 - Entidade Funcionário:
+	
+		* O relacionameno de funcionario e endereço é do tipo @OneToOne.
+		* Quando for incluir, alterar ou excluir um funcionário também o endereço pode ser afetado, então
+		temos um efeito do tipo cascata, na entidade.
+				
+[----------------------------------------------------------------------------(04/08/2018)]
+	
+	Aula 19 - Resumo da seção.
 
+	Aula 20 - Configurando o Banco de dados:
 
+		* As propriedades do banco de dados devem ser escritas no arquivo application.properties.
+		* A propriedade spring.jpa.open-in-view=true habilita no spring boot para tratar a LazyException,
+		que acontece quando você tem entidades com relacionamentos 1 para N ou N para N, e a transação é
+		fechada antes de finalizar todas as consultas do relacionamento.
+		* Incluir o driver do MySql nas dependências do projeto, arquivo pom.xml .
+		 
 
 
 
