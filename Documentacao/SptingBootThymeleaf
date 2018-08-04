@@ -172,9 +172,25 @@ Seção 2 - Iniciando o Desenvolvimento do Projeto:
 		* Site de referência para a versão do Spring Boot adotada:
 		 https://docs.spring.io/spring-boot/docs/2.0.3.BUILD-SNAPSHOT/reference/html/
 		
+[----------------------------------------------------------------------------(03/08/2018)]
 
+	Aula 15 - Super classe para Entidade:
 
+		* Criar uma classe abstrata que vai ter atributos e métodos que as outras classes vão herdar.
+		* Esta classe vai força as outras classes a definir o tipo do seu id, vamos também implementar
+		a interface serializable e as classes filhas dela vão herdar esta interface.
+		* Uma classe abstrata so pode ser acessada por herança e não instância.
 
+	Aula 16 - As enntidades Departamento e Cargo:
+	
+		* O relacionamento departamento e cargo é bi-direcional, onde temos o lado fraco (departamento) e 
+		forte sendo este onde fica a chave estrangeira (Cargo).
+
+	Aula 17 - Entidade Endereço:
+
+		* Criando o Enum para descrição e sigla do atributo estado.
+
+			
 
 
 
