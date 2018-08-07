@@ -225,7 +225,19 @@ Seção 2 - Iniciando o Desenvolvimento do Projeto:
 
 	Aula 23 - Resumo da seção.	
 
+[----------------------------------------------------------------------------(06/08/2018)]
 
+	Aula 24 - Gerenciamento de Transações:
+
+		* Usar o gerenciamento de transações na camada de serviços.
+		* Anotação "@Transactional" identifica ao Spring que aquela classe ou método, vai ter o gerenciamento 
+		de transações feita pela framework. 
+		* Quando você trabalha com transação objeto fica bloqueado para realizar alteração,  se o parâmetro 
+		com "readOnly = true" identifica que objeto fica desbloqueado somente para leitura.
+
+	Aula 25 - Incluindo os Services:
+	
+		* 	
 
 
 
