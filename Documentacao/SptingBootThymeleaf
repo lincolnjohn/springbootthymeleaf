@@ -237,12 +237,19 @@ Seção 2 - Iniciando o Desenvolvimento do Projeto:
 
 	Aula 25 - Incluindo os Services:
 	
-		* 	
+		* Criar a camada de Service. Utilizando interfaces, que vão ser implementadas por outras classes.	
 
+[----------------------------------------------------------------------------(07/08/2018)]
 
+	Aula 26 - Finalizando os Services:
 
+		* Na classe que implementa o DepartamentoService, utilizar anotação "@Transactional" nos métodos.
 
+	Aula 27 - Resumo da seção.
 
+	Aula 28 - Atualização para o Spring Boot 2.0:
+
+		* Já tinha feito atualização para Spring Boot 2.0.3.RELEASE.
 
 
 
