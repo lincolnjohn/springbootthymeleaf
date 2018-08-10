@@ -272,6 +272,13 @@ Seção 2 - Iniciando o Desenvolvimento do Projeto:
 	
 		* Você tem a página com conteúdo que vai ser fragmentada, e a página de destino, que vai receber o fragmento
 		definido.
+		* Você tem três formas para inserir os fragmentos na página destino (insert,replace e include)
 
-			
+	Aula 32 - Fragmentando o cabeçalho e rodapé:
+	
+		* Instalando plugin do Thymeleaf para autocomplete do STS.
+		
+
+
+
 

@@ -22,7 +22,7 @@
 </head>
 
 <body>
-	<header>
+	<header th:replace="fragments/header :: cabecalho">
 		<div>header</div>
 	</header>
 	<div>
@@ -38,7 +38,7 @@
 		</section>
 	</div>
 	
-	<footer>
+	<footer th:replace="fragments/footer :: rodape">
 		<div>rodapé</div>
 	</footer>
 	
