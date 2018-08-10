@@ -252,5 +252,26 @@ Seção 2 - Iniciando o Desenvolvimento do Projeto:
 		* Já tinha feito atualização para Spring Boot 2.0.3.RELEASE.
 
 
+[----------------------------------------------------------------------------(10/08/2018)]
 
+	Aula 29 - Incluindo o Thymeleaf-layout:
+
+		* O thymeleaf fornece templates para as páginas html.
+		* A página é composta de vários fragmentos, o que nos permite reutilizar código de páginas sem a necessidade
+		de repetilos.
+		* Cria-se uma página principal e apartir dela inclui-se os diversos fragmentos.
+		* Adicionar no arquivo pom.xml a dependência do thymeleaf para layout.
+
+	Aula 30 - Template baseado em layout:
+	
+		* Os conteúdos estáticos das páginas html vão ser incluidos dinâmicamente nas páginas da aplicação, permitindo
+		reutilizar código.
+		* Incluir os names space do thymeleaf.
+
+	Aula 31 - Processo de fragmentação:
+	
+		* Você tem a página com conteúdo que vai ser fragmentada, e a página de destino, que vai receber o fragmento
+		definido.
+
+			
 
