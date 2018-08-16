@@ -25,7 +25,7 @@ public class Funcionario extends AbstractEntity<Long> {
 	@Column(name="data_entrada",nullable=false, columnDefinition="DATE")
 	private LocalDate dataEntrada;
 	
-	@Column(name="data_entrada",columnDefinition="DATE")
+	@Column(name="data_saida",columnDefinition="DATE")
 	private LocalDate dataSaida;
 	
 	@OneToOne(cascade = CascadeType.ALL)

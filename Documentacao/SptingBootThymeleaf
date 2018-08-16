@@ -278,7 +278,26 @@ Seção 2 - Iniciando o Desenvolvimento do Projeto:
 	
 		* Instalando plugin do Thymeleaf para autocomplete do STS.
 		
+[----------------------------------------------------------------------------(16/08/2018)]
 
+	Aula 33 - Fragmentando sidebar e página home:
+
+		* Estava dando um erro na criação do banco de dados, o nome "demo-mvc" não é aceito troquei "demo_mvc".
+
+	Aula 34 - Fragmentando páginas de cadastros e listagens:
+
+		* Transformar as páginas Funcionário, Cargo e Departamento em fragmentos.
+		* Fazer os teste para verificar se a aplicação não quebrou.
+
+	Aula 35 - Resumo da seção.
+	
+	Aula 36 - Inserindo departamentos:
+
+		* Associar(ligar) as páginas de cadastro e listagem usando os componentes do thymeleaf, com as classes Java de Controller.
+
+	Aula 37 - Listando departamentos:
+
+		* Criar no Controller a variável que vai levar a listagem dos departamentos.	
 
 
 
