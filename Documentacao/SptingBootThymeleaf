@@ -299,5 +299,39 @@ Seção 2 - Iniciando o Desenvolvimento do Projeto:
 
 		* Criar no Controller a variável que vai levar a listagem dos departamentos.	
 
+[----------------------------------------------------------------------------(21/08/2018)]
+
+	Aula 38 - Editando departamentos:
+
+		* Através da Url será enviado o "id" do Departamento que vai ser editado.
+		* Na tag "th:action" incluir um teste se o id do departamento é nulo vamos salvar, caso contrário vamos editar.
+
+	Aula 39 - Excluindo departamentos:
+	
+		* Não podemos excluir um departamento se existir um cargo vinculado a este.
+		* Para mostrar a página de resultado da operação você pode utilizar "redirect" ou chamar um método passando um objeto
+		do tipo "ModelMap".
+
+	Aula 40 - Finalizando a funcionalidade excluir departamento:
+	
+		* Preparar a interface do usuário para a funcionalidade excluir.
+		* Utilizar o modal do Bootstrap.
+		* Utilizar JavaScript para chamar o Modal.
+		* Usar dois componentes do BootStrap "data-toggle"(trabalhar com modal) e "data-target"(identificador do modal).
+		* Através do JavaScript criamos uma função que pega o id do butão e quebra em duas partes, onde somente me interessa
+		a segunda parte.
+		* Outra função do JavaScript é criada para passar o valor da url ao servidor.
+		* O JavaScript utiliza os componentes do Jquery.
+
+	Aula 41 - Exibição de mensagens:
+	
+		* Exibir mensagens de Inclusão, Alteração e Exclusão.
+
+	Aula 42 - Resumo.		
+
+
+
+
+
 
 
