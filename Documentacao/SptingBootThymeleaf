@@ -329,6 +329,33 @@ Seção 2 - Iniciando o Desenvolvimento do Projeto:
 
 	Aula 42 - Resumo.		
 
+[----------------------------------------------------------------------------(28/08/2018)]
+
+	Aula 43 - Inserindo cargos:
+
+		* Utilizar os componentes do thymeleaf nas tags <form>, como url e objeto que estão vinculados a classe CargoController.
+		* Na combobox de departamentos utilizar o componente thymeleaf "th:each= d : ${departamentos}" que vai percorrer uma lista
+		de departamentos.
+
+	Aula 44 - Conversor para Departamento:
+	
+		* A página Html envia uma String mas a Classe controller espera um objeto.
+		* Utilizar uma inteface do SpringFramework que converte uma String em um Objeto, criando uma classe conversora para Departamento.	
+
+	Aula 45 - Listando Cargo:
+
+		* Inserir na página Html os componentes do thymeleaf que permitem visualizar uma lista de cargos cadastrados no banco de dados.
+
+	Aula 46 - Editando Cargo:
+
+		* Inserir na página Html os componentes do thymeleaf que permitem editar cargos cadastrados no banco de dados.
+
+	Aula 47 - Excluindo Cargos:
+	
+		* Utilizar na página Html um componente do thymeleaf "#strings", que possui vários métodos para trabalhar com strings. Vamos
+		usar o "concat()", que concatena várias strings definidas como parâmetros.
+
+	Aula 48 - Resumo.		
 
 
 
