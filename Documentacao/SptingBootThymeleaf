@@ -357,8 +357,48 @@ Seção 2 - Iniciando o Desenvolvimento do Projeto:
 
 	Aula 48 - Resumo.		
 
+[----------------------------------------------------------------------------[30/08/2018]
+
+	Aula 49 - Inserindo Funcionário:
+
+		* Os valores do enum UF são constantes.
+
+		* Para formatar o valor de acordo com Locale varificar na Aula 56.
+
+	Aula 50 - Conversores para funcionários:	
+
+		* É necessário utilizar classe conversora para funcionários.
+
+		* O Spring fornece uma conversão automática, adicionando uma notação na classe da entidade que fazem o papel do conversor.
 
 
+|--------------------------------------------------------------------------->[31/08/2018]
 
+	Aula 50 - Listando Funcionários:
+
+		* Expressão do thymeleaf "|R$ ${{f.salario}}|" usada para formatar valores monetários na tela.
+
+		* Expressão do thymeleaf "${#temporals.format(f.dataEntrada, dd/MM/yyyy)}" usada para formatar datas.
+
+	Aula 51 - Editando e excluindo Funcionários:
+	
+		* Na tag "<input type="hidden">" adicionar o componente "th:field="*{id}" "	que identifica o funcionário que você vai editar.
+
+	Aula 52 - Buscar funcionário por nome:
+	
+		* No método de pesquisa utilizamos anotação "@RequestParam"	por que a variável vai ser recebida como um atributo da requisição.
+
+		* Criar um método na classe AbstracDao, que vai representar todo tipo de consulta que vai ser utilizada na pesquisa do 
+		funcionário.
+
+	Aula 53 - Buscar funcionário por cargo:
+
+		* Criar método que vai realizar a pesquisa do funcionário de acordo com o cargo.
+
+	Aula 54 - Buscar funcionário por data:
+	
+		* Preciso converter a data informada
+
+	Aula 55 - Resumo.	
 
 

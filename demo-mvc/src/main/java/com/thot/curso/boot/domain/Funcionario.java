@@ -1,7 +1,7 @@
 package com.thot.curso.boot.domain;
 
-import java.math.BigDecimal;
 import java.time.LocalDate;
+import java.math.BigDecimal;
 
 import javax.persistence.CascadeType;
 import javax.persistence.Column;
@@ -11,6 +11,11 @@ import javax.persistence.ManyToOne;
 import javax.persistence.OneToOne;
 import javax.persistence.Table;
 
+import org.springframework.format.annotation.DateTimeFormat;
+import org.springframework.format.annotation.DateTimeFormat.ISO;
+import org.springframework.format.annotation.NumberFormat;
+
+
 @SuppressWarnings("serial")
 @Entity
 @Table(name="funcionarios")
@@ -19,12 +24,15 @@ public class Funcionario extends AbstractEntity<Long> {
 	@Column(nullable=false,unique=true)
 	private String nome;
 	
+	@NumberFormat(style = org.springframework.format.annotation.NumberFormat.Style.CURRENCY, pattern = "#,##0.00")
 	@Column(nullable=false,columnDefinition="DECIMAL(7,2) DEFAULT 0.00")
 	private BigDecimal salario;
 	
+	@DateTimeFormat(iso = ISO.DATE)
 	@Column(name="data_entrada",nullable=false, columnDefinition="DATE")
 	private LocalDate dataEntrada;
 	
+	@DateTimeFormat(iso = ISO.DATE) 
 	@Column(name="data_saida",columnDefinition="DATE")
 	private LocalDate dataSaida;
 	
