@@ -374,31 +374,45 @@ Seção 2 - Iniciando o Desenvolvimento do Projeto:
 
 |--------------------------------------------------------------------------->[31/08/2018]
 
-	Aula 50 - Listando Funcionários:
+	Aula 51 - Listando Funcionários:
 
 		* Expressão do thymeleaf "|R$ ${{f.salario}}|" usada para formatar valores monetários na tela.
 
 		* Expressão do thymeleaf "${#temporals.format(f.dataEntrada, dd/MM/yyyy)}" usada para formatar datas.
 
-	Aula 51 - Editando e excluindo Funcionários:
+	Aula 52 - Editando e excluindo Funcionários:
 	
 		* Na tag "<input type="hidden">" adicionar o componente "th:field="*{id}" "	que identifica o funcionário que você vai editar.
 
-	Aula 52 - Buscar funcionário por nome:
+	Aula 53 - Buscar funcionário por nome:
 	
 		* No método de pesquisa utilizamos anotação "@RequestParam"	por que a variável vai ser recebida como um atributo da requisição.
 
 		* Criar um método na classe AbstracDao, que vai representar todo tipo de consulta que vai ser utilizada na pesquisa do 
 		funcionário.
 
-	Aula 53 - Buscar funcionário por cargo:
+	Aula 54 - Buscar funcionário por cargo:
 
 		* Criar método que vai realizar a pesquisa do funcionário de acordo com o cargo.
 
-	Aula 54 - Buscar funcionário por data:
+	Aula 55 - Buscar funcionário por data:
 	
 		* Preciso converter a data informada
 
-	Aula 55 - Resumo.	
+	Aula 56 - Resumo.	
+
+|--------------------------------------------------------------------------->[12/09/2018]
+
+	Aula 57 - Validando formulários de cargo e departamento:
+
+		- Vamos utilizar o Bean Valitadion, uma validação do lado do servidor.
+
+		- No Bean Validation onde se faz as regras de validação dos campos das entidades.
+
+
+
+
+
+
 
 
