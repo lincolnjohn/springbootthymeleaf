@@ -436,14 +436,42 @@ Seção 2 - Iniciando o Desenvolvimento do Projeto:
 
 		- Você cria sua própria regra de validação.
 
-		- Criar um novo arquivo de mensagem onde informo a mensagen que deve ser informada. Este arquivo é própio do framework
-		do spring.
+		- Criar um novo arquivo de mensagem onde informo a que mensagen deve ser exibida. Este arquivo é própio do framework
+		Spring.
 
-		
+|--------------------------------------------------------------------------->[01/10/2018]		
 
+	Aula 61 - Convertendo String para integer e validando:
 
+		- Necessário converter o campo informado na interface de string para integer.
 
+		- Utilizar a expressão regular "[0-9]+", para garantir que so tenho digitos.
 
+	Aula 62 - Resumo da seção.		
+
+	Aula 63 - Nomeando os componentes do HTML:
+
+		- Descrições dos componentes, vão sair da página para um arquivo de propriedades.
+
+		- No arquivo de propriedades não existe um formato padrão para os caracteres, então se utiliza o padrão Unicode
+		para representar os caracteres especiasi como acento.
+
+		- Tabela de caracteres https://unicode-table.com/pt/
+
+	Aula 64 - Resumo da seção.
+	
+	Aula 65 - Página de erro padrão do Thymeleaf:
+
+		- Capturar as variáveis "status", "error" e "message" do contexto do Spring boot.
+
+		- Criar uma página "error.html" dentro da pasta template, o Spring já assume como página padrão de erro da aplicação.
+
+	Aula 66 - Manipulando página de erro:
+	
+		- Criar uma classe que captura as menssagens de erro, podendo ser personalizada para exibir de forma mais amigavél
+		para o usuário.	 	
+
+	Aula 67 - Resumo da seção.
 
 
 
