@@ -277,6 +277,9 @@ Seção 2 - Iniciando o Desenvolvimento do Projeto:
 	Aula 32 - Fragmentando o cabeçalho e rodapé:
 	
 		* Instalando plugin do Thymeleaf para autocomplete do STS.
+
+		* Instalar o plugin do Thymeleaf na opção de ">help>Install New Software", informar o site 
+		http://www.thymeleaf.org/eclipse-plugin-update-site/.
 		
 [----------------------------------------------------------------------------(16/08/2018)]
 
@@ -409,6 +412,34 @@ Seção 2 - Iniciando o Desenvolvimento do Projeto:
 
 		- No Bean Validation onde se faz as regras de validação dos campos das entidades.
 
+|--------------------------------------------------------------------------->[30/09/2018]
+
+	Aula 58 - Validando Funcionário e Endereço:
+
+		- Utilizar as mensagens de validação nossas em um arquivo de propriedades "ValidationMessages.properties".
+
+		- Padronizamos as mensagens de validação definidas na classe de dominío, de acordo com as anotações.
+
+		- Outra forma de padronizar a mensagem é criando neste arquivo uma propriedade chave valor para validação.
+
+		- Quando utilizo anotação "@Valid", estou identificando que o objeto deve ser validado na sua classe específica.
+
+		- Não vamos exibir as mensagens utilizando fragmentos, mas campo a campo.
+
+	Aula 59 - Validação campo a campo para funcionário:
+	
+		- Usando um componente do thymeleaf para testar se o campo passou pela validação, caso contrário modificar o css.
+
+	Aula 60 - Validação de data com Spring Validator:
+	
+		- Um sistema próprio da validação do Spring. Com ele você cria as próprias regras de validação.
+
+		- Você cria sua própria regra de validação.
+
+		- Criar um novo arquivo de mensagem onde informo a mensagen que deve ser informada. Este arquivo é própio do framework
+		do spring.
+
+		
 
 
 
