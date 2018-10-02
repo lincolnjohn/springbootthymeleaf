@@ -473,5 +473,29 @@ Seção 2 - Iniciando o Desenvolvimento do Projeto:
 
 	Aula 67 - Resumo da seção.
 
+|--------------------------------------------------------------------------->[02/10/2018]		
+
+	Aula 68 - Padronizando as URLs internas:
+
+		- Sbstituir os componentes "h:href e h:src" pelos do thymleaf "th:href e th:src".
+
+	Aula 69 - Executando a aplicação via .jar:
+	
+		- Executando aplicação fora da IDE.
+
+		- Na opção "Run as" selecionar "Maven build".
+
+		- No campo "Goals:" inserir "package -e".
+
+		- No campo "Name:" acrescentar "- mvm package".
+
+		- Ao finalizar o processo é gerado uma pasta dentro do projeto "\target" onde se localizar o arquivo .jar do projeto.
+
+		- No terminal dentro da pasta "\target" digitar o comando $>java -jar (nome do arquivo).
+
+		- Ao executar apresenta um erro de conflito entre o thymeleaf e o spring boot 2.0, referente ao uso da "/", nas urls.
+
+		- Nas operações com exceção dos redirect devo remover as barras "/".
+
 
 

@@ -33,13 +33,13 @@ public class CargoController {
 	@GetMapping("/cadastrar")
 	public String cadastrar(Cargo cargo) {
 		
-		return "/cargo/cadastro";
+		return "cargo/cadastro";
 	}
 	
 	@GetMapping("/listar")
 	public String listar(ModelMap model) {
 		model.addAttribute("cargos",cargoService.buscarTodos());
-		return "/cargo/lista";
+		return "cargo/lista";
 	}
 	
 	@PostMapping("/salvar")
@@ -57,7 +57,7 @@ public class CargoController {
 	@GetMapping("/editar/{id}")
 	public String preEditar(@PathVariable("id")Long id,ModelMap model) { 
 		model.addAttribute("cargo", cargoService.buscarPorId(id));
-		return "/cargo/cadastro";
+		return "cargo/cadastro";
 	}
 	
 	@PostMapping("/editar")

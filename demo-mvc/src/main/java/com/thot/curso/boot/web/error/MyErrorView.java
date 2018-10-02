@@ -16,7 +16,7 @@ public class MyErrorView implements ErrorViewResolver{
 	public ModelAndView resolveErrorView(HttpServletRequest request, HttpStatus status, Map<String, Object> map) {
 
 		//map.forEach((k,v)-> System.out.println(k+":"+v+"\n"));
-		ModelAndView model = new ModelAndView("/error");
+		ModelAndView model = new ModelAndView("error");
 		model.addObject("status",status.value());
 		switch (status.value()) {
 		case 404:
