@@ -498,4 +498,52 @@ Seção 2 - Iniciando o Desenvolvimento do Projeto:
 		- Nas operações com exceção dos redirect devo remover as barras "/".
 
 
+|--------------------------------------------------------------------------->[12/02/2019]		
+
+	Aula 70 - Criar uma conta no Heroku:
+
+		- Utilizar a minha conta já criada.
+
+
+	Aula 71 - Instalar Heroku CLI:
+
+		- Permite trabalha no seu pc com acesso remoto, apartir do termianl.
+
+		- Estava com uma mensagem de erro no herokuCLI  "[ENOENT] Error: spawn heroku ENOENT", desisntalei "sudo snap remove heroku".
+
+		- Instalei novamente "sudo snap install --classic heroku".
+
+		- Para acessar o herokuCLI "$>/snap/bin ./heroku".
+
+		- Selecionar a opção de criar uma nova aplicação.
+
+		- Nome da aplicação "demo-mvc-edu".
+
+
+	Aula 72 - Instalação do Git:
+
+		- Já tenho a versão 2.11.0 do git.
+
+
+	Aula 73 - Banco de dados do heroku:	
+
+		- Selecionando JawsDB Mysql (add-ons do Mysql para o heroku).
+
+
+	Aula 74 - Preparando a aplicação:	
+
+		- Na aplicação modificar o arquivo "layout.html", informando uma nova url "/" sujerida pelo heroku.
+
+		- Quando for usar localmente url="http://localhost:8080/"
+
+		- Criar o arquivo properties para produção com a referência do heroku.
+
+		- Criar um arquivo "Procfile" que vai ser utilizado pelo heroku.
+
+		
+
+
+
+
+
 
